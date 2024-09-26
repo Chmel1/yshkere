@@ -1,0 +1,17 @@
+C:\Users\TEMP\source\repos\WWP\WWP\bin\Debug\WWP.exe.config
+C:\Users\TEMP\source\repos\WWP\WWP\bin\Debug\WWP.exe
+C:\Users\TEMP\source\repos\WWP\WWP\bin\Debug\WWP.pdb
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.csproj.AssemblyReference.cache
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\MainWindow.g.cs
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\App.g.cs
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP_MarkupCompile.cache
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP_MarkupCompile.lref
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\MainWindow.baml
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.g.resources
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.Properties.Resources.resources
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.csproj.GenerateResource.cache
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.exe
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\WWP.pdb
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\Dictionary1.baml
+C:\Users\TEMP\source\repos\WWP\WWP\obj\Debug\App.baml
