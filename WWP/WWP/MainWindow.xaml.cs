@@ -23,6 +23,7 @@ namespace WWP
         public MainWindow()
         {
             InitializeComponent();
+            Gridik.HideGrid(_123123, null_text, MainGrid);
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -34,16 +35,19 @@ namespace WWP
         {
 
         }
+        private void want_be_runner_Click(object sender, RoutedEventArgs e)
+        {
+            Gridik.HideGrid(Register5as5a5runner, runner_text, MainGrid);
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Gridik.HideGrid(I0want0have0runner, runner_text, MainGrid);
-
+            this.Close();
         }
 
-        private void want_be_runner_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Gridik.HideGrid(I0want0have0runner, runner_text, MainGrid);
+            Gridik.HideGrid(_123123, null_text, MainGrid);
         }
     }
 }

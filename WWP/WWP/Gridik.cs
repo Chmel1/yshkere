@@ -27,7 +27,7 @@ namespace WWP
                 }
                 else
                 {
-                    tb.Text = selectedGrid.Name.Replace('0', ' ');
+                    tb.Text = selectedGrid.Name.Replace('5', ' ');
                 }
             }
         }

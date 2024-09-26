@@ -5,25 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WWP"
         mc:Ignorable="d"
-        Title="Marathon Skills 2016" Height="1080" Width="1920">
+        WindowState="Maximized" 
+        WindowStyle="SingleBorderWindow"
+        Title="Marathon Skills 2016">
     <Grid x:Name="MainGrid">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="59*"/>
-            <ColumnDefinition Width="581*"/>
-        </Grid.ColumnDefinitions>
-        <Grid x:Name="_123123" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="1064" VerticalAlignment="Center">
-            <TextBox TextAlignment="Center" Height="370" TextWrapping="Wrap" Width="1920" FontSize="36" FontWeight="Bold" TextChanged="TextBox_TextChanged" Background="Black" IsEnabled="False" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Grid x:Name="_123123" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="1064" VerticalAlignment="Center" d:IsHidden="True">
+            <TextBox TextAlignment="Center" Height="386" TextWrapping="Wrap" Width="1920" FontSize="36" FontWeight="Bold" TextChanged="TextBox_TextChanged" Background="Black" IsEnabled="False" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-16,0,0"/>
             <TextBox HorizontalAlignment="Center" Margin="0,223,0,0" TextWrapping="Wrap" Text="Москва, Россия среда 21 октебря 2016 " VerticalAlignment="Top" Width="230" TextChanged="TextBox_TextChanged_1" Background="#FF707070" FontSize="22" FontStyle="Italic" Foreground="#FF9E9E9E" TextAlignment="Center" BorderBrush="{x:Null}" Height="55"/>
             <Label Content="MARATHON SKILLS 2016" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="48"/>
 
             <Button x:Name="want_be_runner" Content="Я хочу стать бегуном" HorizontalAlignment="Center" Margin="0,471,0,0" VerticalAlignment="Top" Width="576" Height="113" RenderTransformOrigin="0.492,0.195" Click="want_be_runner_Click"/>
             <Button Content="Я хочу узнать больше о событии" HorizontalAlignment="Center" Margin="0,807,0,0" VerticalAlignment="Top" Width="576" Height="112" RenderTransformOrigin="0.492,0.195"/>
             <Button Content="Я хочу стать спонсором бегуна" HorizontalAlignment="Center" Margin="0,641,0,0" VerticalAlignment="Top" Width="576" Height="114" RenderTransformOrigin="0.492,0.195"/>
-            <TextBox HorizontalAlignment="Center" Margin="0,1020,0,0" TextWrapping="Wrap" Text="52 дня до старта марафона!" VerticalAlignment="Top" Width="1920" Height="44" Background="#FF707070" Foreground="White" FontSize="28" TextAlignment="Center"/>
             <Button Content="Login" HorizontalAlignment="Left" Margin="1668,942,0,0" VerticalAlignment="Top" Width="166"/>
-            <TextBlock x:Name="runner_text" HorizontalAlignment="Left" Margin="129,-16,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="83"/>
         </Grid>
-        <Grid x:Name="I0want0have0runner" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,1020,0,0" TextWrapping="Wrap" Text="52 дня до старта марафона!" VerticalAlignment="Top" Width="1920" Height="64" Background="#FF707070" Panel.ZIndex="52" Foreground="White" FontSize="28" TextAlignment="Center"/>
+        <Grid x:Name="Register5as5a5runner">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="167*"/>
+                <ColumnDefinition Width="1753*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
+            <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
+            <Label Content="MARATHON SKILLS 2016" HorizontalAlignment="Left" Margin="514,37,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Grid.Column="1" />
+            <Button Content="Я участвовал ранее" HorizontalAlignment="Left" Margin="514,384,0,0" VerticalAlignment="Top" Width="624" Height="148" FontSize="48" Grid.Column="1"/>
+            <Button Content="Я новый участник" HorizontalAlignment="Left" Margin="514,578,0,0" VerticalAlignment="Top" Width="624" Height="148" FontSize="48" Grid.Column="1"/>
+
+        </Grid>
+        <TextBlock x:Name="null_text" HorizontalAlignment="Left" Margin="132,-16,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBlock x:Name="runner_text" HorizontalAlignment="Left" Margin="132,-16,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="196" Foreground="White"/>
+
 
     </Grid>
 
