@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TEMP\\yshkere\\WWP\\",
+  "WorkspaceRootPath": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP\\yshkere\\WWP\\wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp\\yshkere\\wwp\\wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP\\yshkere\\WWP\\wwp\\gridik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\wwp\\gridik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\gridik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Gridik.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP\\yshkere\\WWP\\WWP\\Gridik.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Gridik.cs",
               "RelativeDocumentMoniker": "WWP\\Gridik.cs",
-              "ToolTip": "C:\\Users\\TEMP\\yshkere\\WWP\\WWP\\Gridik.cs",
+              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Gridik.cs",
               "RelativeToolTip": "WWP\\Gridik.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T07:35:17.783Z",
               "IsPinned": true,
@@ -40,11 +48,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\App.config",
+              "RelativeDocumentMoniker": "WWP\\App.config",
+              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\App.config",
+              "RelativeToolTip": "WWP\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-02T06:29:48.65Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dictionary1.xaml",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Dictionary1.xaml",
+              "RelativeDocumentMoniker": "WWP\\Dictionary1.xaml",
+              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Dictionary1.xaml",
+              "RelativeToolTip": "WWP\\Dictionary1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-02T06:29:56.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\TEMP\\yshkere\\WWP\\WWP\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WWP\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\TEMP\\yshkere\\WWP\\WWP\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\MainWindow.xaml",
               "RelativeToolTip": "WWP\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-25T05:52:54.782Z",
@@ -52,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WWP\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\TEMP\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
               "RelativeToolTip": "WWP\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwJMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:52:53.921Z",
               "EditorCaption": ""

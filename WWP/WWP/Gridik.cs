@@ -21,14 +21,6 @@ namespace WWP
                     }
                 }
                 selectedGrid.Visibility = Visibility.Visible;
-                if (selectedGrid.Name == "first_grid")
-                {
-                    tb.Text = "";
-                }
-                else
-                {
-                    tb.Text = selectedGrid.Name.Replace('5', ' ');
-                }
             }
         }
 }

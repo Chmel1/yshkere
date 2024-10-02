@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WWP"
         mc:Ignorable="d"
         WindowState="Maximized" 
-        WindowStyle="SingleBorderWindow"
+        WindowStyle="None" Height="1080" Width="1920"
         Title="Marathon Skills 2016">
     <Grid x:Name="MainGrid">
         <Grid x:Name="_123123" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="1064" VerticalAlignment="Center" d:IsHidden="True">
@@ -20,20 +20,93 @@
             <Button Content="Login" HorizontalAlignment="Left" Margin="1668,942,0,0" VerticalAlignment="Top" Width="166"/>
         </Grid>
         <TextBox HorizontalAlignment="Center" Margin="0,1020,0,0" TextWrapping="Wrap" Text="52 дня до старта марафона!" VerticalAlignment="Top" Width="1920" Height="64" Background="#FF707070" Panel.ZIndex="52" Foreground="White" FontSize="28" TextAlignment="Center"/>
-        <Grid x:Name="Register5as5a5runner">
+        <Grid x:Name="Register5as5a5runner" d:IsHidden="True">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="167*"/>
                 <ColumnDefinition Width="1753*"/>
             </Grid.ColumnDefinitions>
             <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
             <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
-            <Label Content="MARATHON SKILLS 2016" HorizontalAlignment="Left" Margin="514,37,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Grid.Column="1" />
-            <Button Content="Я участвовал ранее" HorizontalAlignment="Left" Margin="514,384,0,0" VerticalAlignment="Top" Width="624" Height="148" FontSize="48" Grid.Column="1"/>
-            <Button Content="Я новый участник" HorizontalAlignment="Left" Margin="514,578,0,0" VerticalAlignment="Top" Width="624" Height="148" FontSize="48" Grid.Column="1"/>
+            <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Left" Margin="468,37,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="637" HorizontalContentAlignment="Center" Grid.Column="1" />
+            <Button Content="Я участвовал ранее" HorizontalAlignment="Left" Margin="481,369,0,0" VerticalAlignment="Top" Width="624" Height="148" FontSize="48" Grid.Column="1" Click="Button_Click_2"/>
+            <Button Content="Я новый участник" HorizontalAlignment="Left" Margin="481,582,0,0" VerticalAlignment="Top" Width="624" Height="148" FontSize="48" Grid.Column="1" Click="Button_Click_6"/>
+            <Button Grid.Column="1" Content="Login" HorizontalAlignment="Left" Margin="1517,922,0,0" VerticalAlignment="Top" Height="64" Width="147"/>
 
         </Grid>
+        <Grid x:Name="Login" d:IsHidden="True">
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
+            <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
+            <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="636" HorizontalContentAlignment="Center" />
+            <Label Content="Форма авторизации" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" FontSize="48"/>
+            <Label Content="Пожалуйста, авторизуйтесь в системе, используя ваш адресс электроной почты и пароль." HorizontalAlignment="Left" Margin="100,354,0,0" VerticalAlignment="Top" FontSize="42"/>
+            <Label Content="Email:" FontSize="44" HorizontalAlignment="Left" Margin="450,0,0,0" VerticalAlignment="Center"/>
+            <Label Content="Пароль:" FontSize="44" HorizontalAlignment="Left" Margin="372,636,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Margin="600,506,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
+            <TextBox HorizontalAlignment="Left" Margin="600,627,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
+            <Button Content="Login" HorizontalAlignment="Left" Margin="600,814,0,0" VerticalAlignment="Top" Width="165" Height="72"/>
+            <Button Content="Cancel" HorizontalAlignment="Left" Margin="809,814,0,0" VerticalAlignment="Top" Width="165" Height="72" Click="Button_Click_4"/>
+            <TextBlock Name="Login_tb" HorizontalAlignment="Left" Margin="380,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid x:Name="Redister_Runner" >
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
+            <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
+            <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="636" HorizontalContentAlignment="Center" />
+            <Label Content="Регистрация бегуна" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" FontSize="48"/>
+            <Label Content="Пожалуйста зполните всю информацию, чтобы зарегистрироваться в качестве бегуна." HorizontalAlignment="Left" Margin="100,354,0,0" VerticalAlignment="Top" FontSize="42"/>
+            <Label Content="Email:" FontSize="40" HorizontalAlignment="Left" Margin="303,456,0,0" VerticalAlignment="Top"/>
+            <Label Content="Пароль:" FontSize="40" HorizontalAlignment="Left" Margin="260,540,0,0" VerticalAlignment="Top"/>
+            <Label Content="Повторите пароль:" FontSize="40" HorizontalAlignment="Left" Margin="58,625,0,0" VerticalAlignment="Top"/>
+            <Label Content="Имя:" FontSize="40" HorizontalAlignment="Left" Margin="319,711,0,0" VerticalAlignment="Top"/>
+            <Label Content="Фамилия:" FontSize="40" HorizontalAlignment="Left" Margin="237,779,0,0" VerticalAlignment="Top"/>
+            <Label Content="Пол:" FontSize="40" HorizontalAlignment="Left" Margin="1319,456,0,0" VerticalAlignment="Top"/>
+            <Label Content="Дата рождения:" FontSize="40" HorizontalAlignment="Left" Margin="1110,540,0,0" VerticalAlignment="Top"/>
+            <Label Content="Страна:" FontSize="40" HorizontalAlignment="Left" Margin="1264,625,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="Email_reg" FontSize="44" HorizontalAlignment="Left" Margin="421,456,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
+            <TextBox x:Name="RepeatPassword_reg" FontSize="44" HorizontalAlignment="Left" Margin="421,625,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
+            <TextBox x:Name="Password_reg" HorizontalAlignment="Left" FontSize="44" Margin="421,540,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
+            <TextBox x:Name="Name_reg" HorizontalAlignment="Left" Margin="421,711,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
+            <TextBox x:Name="Surname_reg" HorizontalAlignment="Left" Margin="421,779,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
+            <ComboBox x:Name="Gender_reg" HorizontalAlignment="Left" Margin="1416,456,0,0" FontSize="44" VerticalAlignment="Top" Width="375" Height="54" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}"/>
+            <TextBox x:Name="DateOfBirth_reg" HorizontalAlignment="Left" Margin="1416,540,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="375" Height="63"/>
+            <ComboBox x:Name="Country_reg" HorizontalAlignment="Left" Margin="1416,634,0,0" FontSize="44" VerticalAlignment="Top" Width="375" Height="54" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <Button Content="Регистрация" HorizontalAlignment="Left" Margin="931,906,0,0" VerticalAlignment="Top" Height="61" Width="228" Click="Button_Click_5"/>
+            <Button Content="Отмена" HorizontalAlignment="Left" Margin="1202,906,0,0" VerticalAlignment="Top" Height="61" Width="227"/>
+            <TextBlock x:Name="Registration_tb" HorizontalAlignment="Left" Margin="303,69,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        </Grid>
+
+
+
+
+
+
+
         <TextBlock x:Name="null_text" HorizontalAlignment="Left" Margin="132,-16,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
         <TextBlock x:Name="runner_text" HorizontalAlignment="Left" Margin="132,-16,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="196" Foreground="White"/>
+        <Button Content="X" HorizontalAlignment="Left" FontSize="48"  Margin="1850,10,0,0" Panel.ZIndex="1000" VerticalAlignment="Top" Width="60" Height="57" Click="Button_Click_3" Cursor="" Background="{x:Null}" BorderBrush="{x:Null}" Opacity="1" ClickMode="Press">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+        </Button>
 
 
     </Grid>
