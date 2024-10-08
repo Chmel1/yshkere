@@ -192,19 +192,18 @@ namespace WWP
         }
         private string AuthenticateUser(string email_log, string password_log)
         {
-            string log_query = "Select * From dbo.[User] WHERE Email = @Email AND Password = @Password";
             try
             {
-                //database.openConnection();
+                string log_query = "Select * From dbo.[User] WHERE Email = @Email AND Password = @Password";
                 using (SqlConnection connection = new SqlConnection("Server =(localdb)\\MSSQLLocalDB; Database = database; Trusted_Connection=True"))
                 {
-                    connection.Open();
                     SqlCommand command = new SqlCommand(log_query, connection);
                     command.Parameters.AddWithValue("@Email", email_log);
                     command.Parameters.AddWithValue("@Password", password_log);
+                    connection.Open();
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        if (reader.HasRows)
+                        if (reader.Read())
                         {
                             return reader.GetInt32(5).ToString();
                         }

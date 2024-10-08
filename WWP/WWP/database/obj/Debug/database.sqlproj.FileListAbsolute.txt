@@ -8,3 +8,13 @@ C:\Users\TEMP.VATHOLM\yshkere\WWP\WWP\database\obj\Debug\Model.xml
 C:\Users\TEMP.VATHOLM\yshkere\WWP\WWP\database\obj\Debug\refactor.xml
 C:\Users\TEMP.VATHOLM\yshkere\WWP\WWP\database\obj\Debug\postdeploy.sql
 C:\Users\TEMP.VATHOLM\yshkere\WWP\WWP\database\obj\Debug\predeploy.sql
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\bin\Debug\database.dacpac
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\bin\Debug\database.dll
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\bin\Debug\database.pdb
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\database.sqlproj.AssemblyReference.cache
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\Model.xml
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\refactor.xml
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\postdeploy.sql
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\predeploy.sql
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\database.dll
+C:\Users\NetribovskijVA\yshkere\WWP\WWP\database\obj\Debug\database.pdb

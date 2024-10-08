@@ -41,8 +41,8 @@
             <Label Content="Пожалуйста, авторизуйтесь в системе, используя ваш адресс электроной почты и пароль." HorizontalAlignment="Left" Margin="100,354,0,0" VerticalAlignment="Top" FontSize="42"/>
             <Label Content="Email:" FontSize="44" HorizontalAlignment="Left" Margin="450,0,0,0" VerticalAlignment="Center"/>
             <Label Content="Пароль:" FontSize="44" HorizontalAlignment="Left" Margin="372,636,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="Email_log" HorizontalAlignment="Left" Margin="600,506,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78" Text="user1@example.com" TextChanged="TextBox_TextChanged_2"/>
-            <TextBox x:Name="Password_log" Text="password1" HorizontalAlignment="Left" Margin="600,627,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
+            <TextBox x:Name="Email_log" HorizontalAlignment="Left" Margin="600,506,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78" Text="john.doe@example.com" TextChanged="TextBox_TextChanged_2"/>
+            <TextBox x:Name="Password_log" Text="hashed_password_123" HorizontalAlignment="Left" Margin="600,627,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
             <Button Content="Login" HorizontalAlignment="Left" Margin="600,814,0,0" VerticalAlignment="Top" Width="165" Height="72" Click="Button_Click_7"/>
             <Button Content="Cancel" HorizontalAlignment="Left" Margin="809,814,0,0" VerticalAlignment="Top" Width="165" Height="72" Click="Button_Click_4"/>
             <TextBlock Name="Login_tb" HorizontalAlignment="Left" Margin="380,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
