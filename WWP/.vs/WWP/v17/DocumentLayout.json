@@ -3,24 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/database/True/SqlTable/dbo.User.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\temp.vatholm\\yshkere\\wwp\\wwp\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/database/True/SqlTable/dbo.Role.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\wwp\\gridik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\gridik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\wwp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Gridik.cs",
               "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Gridik.cs",
               "RelativeDocumentMoniker": "WWP\\Gridik.cs",
@@ -48,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\App.config",
               "RelativeDocumentMoniker": "WWP\\App.config",
@@ -62,14 +77,35 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\DataBaseConnection.cs",
+              "RelativeDocumentMoniker": "WWP\\DataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\DataBaseConnection.cs",
+              "RelativeToolTip": "WWP\\DataBaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:13:04.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Role [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/database/True/SqlTable/dbo.Role.sql",
+              "ToolTip": "dbo.Role [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-08T08:05:50.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dictionary1.xaml",
-              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Dictionary1.xaml",
-              "RelativeDocumentMoniker": "WWP\\Dictionary1.xaml",
-              "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\Dictionary1.xaml",
-              "RelativeToolTip": "WWP\\Dictionary1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T06:29:56.448Z",
+              "Title": "dbo.User [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/database/True/SqlTable/dbo.User.sql",
+              "ToolTip": "dbo.User [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-08T08:05:27.725Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +128,20 @@
               "RelativeDocumentMoniker": "WWP\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\TEMP.VATHOLM\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
               "RelativeToolTip": "WWP\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAwwJMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAUwM4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:52:53.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.User.data ",
+              "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\dbo.User.data.sql",
+              "ToolTip": "dbo.User.data *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-08T08:07:31.987Z",
               "EditorCaption": ""
             }
           ]

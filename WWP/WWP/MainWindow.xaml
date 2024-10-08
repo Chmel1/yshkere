@@ -33,7 +33,7 @@
             <Button Grid.Column="1" Content="Login" HorizontalAlignment="Left" Margin="1517,922,0,0" VerticalAlignment="Top" Height="64" Width="147"/>
 
         </Grid>
-        <Grid x:Name="Login" d:IsHidden="True">
+        <Grid x:Name="Login">
             <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
             <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
             <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="636" HorizontalContentAlignment="Center" />
@@ -41,14 +41,14 @@
             <Label Content="Пожалуйста, авторизуйтесь в системе, используя ваш адресс электроной почты и пароль." HorizontalAlignment="Left" Margin="100,354,0,0" VerticalAlignment="Top" FontSize="42"/>
             <Label Content="Email:" FontSize="44" HorizontalAlignment="Left" Margin="450,0,0,0" VerticalAlignment="Center"/>
             <Label Content="Пароль:" FontSize="44" HorizontalAlignment="Left" Margin="372,636,0,0" VerticalAlignment="Top"/>
-            <TextBox HorizontalAlignment="Left" Margin="600,506,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
-            <TextBox HorizontalAlignment="Left" Margin="600,627,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
-            <Button Content="Login" HorizontalAlignment="Left" Margin="600,814,0,0" VerticalAlignment="Top" Width="165" Height="72"/>
+            <TextBox x:Name="Email_log" HorizontalAlignment="Left" Margin="600,506,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78" Text="user1@example.com" TextChanged="TextBox_TextChanged_2"/>
+            <TextBox x:Name="Password_log" Text="password1" HorizontalAlignment="Left" Margin="600,627,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="828" Height="78"/>
+            <Button Content="Login" HorizontalAlignment="Left" Margin="600,814,0,0" VerticalAlignment="Top" Width="165" Height="72" Click="Button_Click_7"/>
             <Button Content="Cancel" HorizontalAlignment="Left" Margin="809,814,0,0" VerticalAlignment="Top" Width="165" Height="72" Click="Button_Click_4"/>
             <TextBlock Name="Login_tb" HorizontalAlignment="Left" Margin="380,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         </Grid>
 
-        <Grid x:Name="Redister_Runner" >
+        <Grid x:Name="Redister_Runner" d:IsHidden="True" >
             <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
             <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
             <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="636" HorizontalContentAlignment="Center" />

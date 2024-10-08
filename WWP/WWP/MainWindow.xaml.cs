@@ -13,6 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data;
+using System.Data.SqlClient;
+using System.Collections;
 
 namespace WWP
 {
@@ -21,6 +24,10 @@ namespace WWP
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        ClassDataBaseConnection database = new ClassDataBaseConnection();
+
+          private SqlConnection sqlConnection = null;
         public MainWindow()
         {
             InitializeComponent();
@@ -94,16 +101,24 @@ namespace WWP
         {
             if(!CheckEmail(Email_reg.Text))
             {
-                throw new Exception("Почта не ещкере");
+                throw new Exception("Почта не соответствует формату");
             }
             CheckPass(Password_reg.Text, RepeatPassword_reg.Text);
             if (Name_reg.Text.Length==0)
             {
-                throw new Exception("СОси");
+                throw new Exception("Заполните поле Имя");
             }
             if (Surname_reg.Text.Length == 0)
             {
-                throw new Exception("СОси1");
+                throw new Exception("Заполните поле Фамилии");
+            }
+            if (Gender_reg.Text.Length==0)
+            {
+                throw new Exception("Заполните поле Гендера");
+            }
+            if (Country_reg.Text.Length==0)
+            {
+                throw new Exception("Заполните поле Страны");
             }
 
         }   
@@ -145,13 +160,68 @@ namespace WWP
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Не ещкере {ex.Message}");
+                MessageBox.Show($"Ошибка {ex.Message}");
             }
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
             Gridik.HideGrid(Redister_Runner, Registration_tb, MainGrid);
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            string email_log = Email_log.Text;
+            string password_log = Password_log.Text;
+
+            string role = AuthenticateUser(email_log, password_log);
+
+            if (role != null)
+            {
+                MessageBox.Show($"ещкере {role}");
+            }
+            else
+            {
+                MessageBox.Show("Неверный логин или пароль!");
+            }
+        }
+        private string AuthenticateUser(string email_log, string password_log)
+        {
+            string log_query = "Select * From dbo.[User] WHERE Email = @Email AND Password = @Password";
+            try
+            {
+                //database.openConnection();
+                using (SqlConnection connection = new SqlConnection("Server =(localdb)\\MSSQLLocalDB; Database = database; Trusted_Connection=True"))
+                {
+                    connection.Open();
+                    SqlCommand command = new SqlCommand(log_query, connection);
+                    command.Parameters.AddWithValue("@Email", email_log);
+                    command.Parameters.AddWithValue("@Password", password_log);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            return reader.GetInt32(5).ToString();
+                        }
+                        else
+                        {
+                            return null;
+                        }
+                    }
+
+                }
+               
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка подключения к базе данных: " + ex.Message);
+            }
+            return null;
         }
     }
 }
