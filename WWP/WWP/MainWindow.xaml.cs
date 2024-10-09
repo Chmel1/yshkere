@@ -17,6 +17,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Collections;
 
+
 namespace WWP
 {
     /// <summary>
@@ -32,13 +33,76 @@ namespace WWP
         {
             InitializeComponent();
             Gridik.HideGrid(_123123, null_text, MainGrid);
+
+            LoadCountries();
         }
 
+        private void DateOfBirth_reg_TextInput(object sender, TextCompositionEventArgs e)
+        {
+            char inputChar = e.Text.Length > 0 ? e.Text[0] : char.MinValue;
+
+            // Разрешаем только цифры и точку
+            if (!char.IsDigit(inputChar) && inputChar != '.')
+            {
+                e.Handled = true; // Отменяем ввод, если это не цифра или точка
+            }
+        }
+        private void DateTextBox_TextChanged(object sender,TextChangedEventArgs e)
+       {
+            TextBox textBox = sender as TextBox;
+            if (textBox == null) return;
+
+            // Убираем все символы, кроме цифр и точек
+            string cleanedText = new string(textBox.Text.Where(c => char.IsDigit(c) || c == '.').ToArray());
+
+            // Форматируем текст
+            if (cleanedText.Length > 2 && cleanedText[2] != '.')
+            {
+                cleanedText = cleanedText.Insert(2, ".");
+            }
+            if (cleanedText.Length > 5 && cleanedText[5] != '.')
+            {
+                cleanedText = cleanedText.Insert(5, ".");
+            }
+
+            // Обновляем текст в TextBox
+            if (textBox.Text != cleanedText)
+            {
+                textBox.Text = cleanedText;
+                textBox.SelectionStart = cleanedText.Length; // Устанавливаем курсор в конец
+            }
+        }
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
+        private void LoadCountries()
+        {
+            List<string> countries = new List<string>();
+
+            string countries_query = "Select Country_Name From Country";
+
+            try
+            {
+                database.openConnection();
+
+                SqlCommand command = new SqlCommand(countries_query, database.getConnection());
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    countries.Add(reader.GetString(0));
+                }
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show($"Ошибка при подключении к базе данных: {ex.Message}");
+            }
+
+            Country_reg.ItemsSource = countries;
+        }
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
 
@@ -56,7 +120,7 @@ namespace WWP
         public void CheckPass(string firstPass, string secondPass)
         {
 
-            if (firstPass.Length < 5)
+            if (firstPass.Length <= 5)
             {
                 throw new Exception("Пароль должен состоять минимум и 6 символов.");
             }
@@ -92,7 +156,7 @@ namespace WWP
             }
             if (firstPass != secondPass)
             {
-                throw new Exception("Пароли должны совподать совподают");
+                throw new Exception("Пароли не совпадают");
             }
 
         }
@@ -108,7 +172,7 @@ namespace WWP
             {
                 throw new Exception("Заполните поле Имя");
             }
-            if (Surname_reg.Text.Length == 0)
+            if (SurName_reg.Text.Length == 0)
             {
                 throw new Exception("Заполните поле Фамилии");
             }
@@ -116,11 +180,32 @@ namespace WWP
             {
                 throw new Exception("Заполните поле Гендера");
             }
-            if (Country_reg.Text.Length==0)
+            if (Country_reg.Text.Length==1)
             {
                 throw new Exception("Заполните поле Страны");
             }
-
+            DateTime dataValue;
+           
+            if(!DateTime.TryParse(DateOfBirth_reg.Text,out dataValue))
+            {
+                throw new Exception("Неверный формат даты");
+            }
+            else
+            {
+                if(DateOfBirth_reg.Text.Length!=10)
+                {
+                    throw new Exception("Заолните дату");
+                }
+                dataValue=Convert.ToDateTime(DateOfBirth_reg.Text);
+                if(DateTime.Now.AddYears(-10) < dataValue)
+                {
+                    throw new Exception("Минимальынй возраст 10лет");
+                }
+                else if (DateTime.Now.AddYears(-100) > dataValue)
+                {
+                    throw new Exception("Максимальный возраст 100лет");
+                }
+            }
         }   
         public bool CheckEmail(string email)
         {
@@ -157,10 +242,11 @@ namespace WWP
             try
             {
                 CheckReg();
+                MessageBox.Show("Успешная регестрация");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка {ex.Message}");
+                MessageBox.Show($"Ошибка: {ex.Message}");
             }
         }
 
@@ -183,7 +269,7 @@ namespace WWP
 
             if (role != null)
             {
-                MessageBox.Show($"ещкере {role}");
+                MessageBox.Show("qwewqeqwew");
             }
             else
             {
@@ -222,5 +308,12 @@ namespace WWP
             }
             return null;
         }
+
+        private void Gender_reg_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+       
     }
 }

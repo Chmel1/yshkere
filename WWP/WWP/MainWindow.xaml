@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:WWP"
         mc:Ignorable="d"
         WindowState="Maximized" 
@@ -33,7 +34,7 @@
             <Button Grid.Column="1" Content="Login" HorizontalAlignment="Left" Margin="1517,922,0,0" VerticalAlignment="Top" Height="64" Width="147"/>
 
         </Grid>
-        <Grid x:Name="Login">
+        <Grid x:Name="Login" d:IsHidden="True">
             <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
             <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
             <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="636" HorizontalContentAlignment="Center" />
@@ -48,7 +49,7 @@
             <TextBlock Name="Login_tb" HorizontalAlignment="Left" Margin="380,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         </Grid>
 
-        <Grid x:Name="Redister_Runner" d:IsHidden="True" >
+        <Grid x:Name="Redister_Runner" >
             <TextBox HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="1920" Height="162" Background="#FF707070" Grid.ColumnSpan="2"/>
             <Button Content="Назад" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Height="58" Width="133" Click="Button_Click_1"/>
             <Label Content="MARATHON SKILLS 2016"   HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="52" FontWeight="Bold" Foreground="White" Width="636" HorizontalContentAlignment="Center" />
@@ -62,17 +63,50 @@
             <Label Content="Пол:" FontSize="40" HorizontalAlignment="Left" Margin="1319,456,0,0" VerticalAlignment="Top"/>
             <Label Content="Дата рождения:" FontSize="40" HorizontalAlignment="Left" Margin="1110,540,0,0" VerticalAlignment="Top"/>
             <Label Content="Страна:" FontSize="40" HorizontalAlignment="Left" Margin="1264,625,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="Email_reg" FontSize="44" HorizontalAlignment="Left" Margin="421,456,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
-            <TextBox x:Name="RepeatPassword_reg" FontSize="44" HorizontalAlignment="Left" Margin="421,625,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
-            <TextBox x:Name="Password_reg" HorizontalAlignment="Left" FontSize="44" Margin="421,540,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
-            <TextBox x:Name="Name_reg" HorizontalAlignment="Left" Margin="421,711,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
-            <TextBox x:Name="Surname_reg" HorizontalAlignment="Left" Margin="421,779,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="558" Height="63"/>
-            <ComboBox x:Name="Gender_reg" HorizontalAlignment="Left" Margin="1416,456,0,0" FontSize="44" VerticalAlignment="Top" Width="375" Height="54" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}"/>
-            <TextBox x:Name="DateOfBirth_reg" HorizontalAlignment="Left" Margin="1416,540,0,0" FontSize="44" TextWrapping="Wrap"  VerticalAlignment="Top" Width="375" Height="63"/>
-            <ComboBox x:Name="Country_reg" HorizontalAlignment="Left" Margin="1416,634,0,0" FontSize="44" VerticalAlignment="Top" Width="375" Height="54" BorderBrush="{x:Null}" Background="{x:Null}"/>
-            <Button Content="Регистрация" HorizontalAlignment="Left" Margin="931,906,0,0" VerticalAlignment="Top" Height="61" Width="228" Click="Button_Click_5"/>
+            <xctk:WatermarkTextBox x:Name="Email_reg" 
+                                Margin="421,464,941,561"
+                                Watermark="Введите ваш Email"
+                                FontSize="36"
+                                VerticalContentAlignment="Center"
+                                HorizontalContentAlignment="Left"/>
+            <ComboBox x:Name="Gender_reg" HorizontalAlignment="Left" Margin="1416,456,0,0" FontSize="36" VerticalAlignment="Top" Width="375" Height="54" BorderBrush="{x:Null}" Background="{x:Null}" SelectionChanged="Gender_reg_SelectionChanged">
+                <ComboBoxItem Content="Мужчина" FontSize="44" Background="White" Foreground="Black"/>
+                <ComboBoxItem Content="Женщина" FontSize="44" Background="White" Foreground="Black"/>
+            </ComboBox>
+            <ComboBox x:Name="Country_reg" HorizontalAlignment="Left" Margin="1416,634,0,0" FontSize="36" VerticalAlignment="Top" Width="375" Height="54" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <Button Content="Регистрация" HorizontalAlignment="Left" Margin="931,906,0,0" VerticalAlignment="Top" Height="61" Width="228"  Click="Button_Click_5"/>
             <Button Content="Отмена" HorizontalAlignment="Left" Margin="1202,906,0,0" VerticalAlignment="Top" Height="61" Width="227"/>
             <TextBlock x:Name="Registration_tb" HorizontalAlignment="Left" Margin="303,69,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+            <xctk:WatermarkTextBox x:Name="Password_reg" 
+                Margin="421,548,941,477"
+                Watermark="Введите ваш Пароль"
+                FontSize="36"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"/>
+            <xctk:WatermarkTextBox x:Name="RepeatPassword_reg" 
+                Margin="421,634,941,391"
+                Watermark="Повторите Пароль"
+                FontSize="36"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"/>
+            <xctk:WatermarkTextBox x:Name="Name_reg" 
+                Margin="421,715,941,310"
+                Watermark="Введите ваше Имя"
+                FontSize="36"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"/>
+            <xctk:WatermarkTextBox x:Name="SurName_reg" 
+                Margin="426,787,936,238"
+                Watermark="Введите вашу Фамилию"
+                FontSize="36"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"/>
+            <xctk:WatermarkTextBox x:Name="DateOfBirth_reg" 
+                Margin="1416,548,129,477"
+                Watermark="ДД/ММ/ГГГГ"
+                FontSize="36"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"/>
         </Grid>
 
 
