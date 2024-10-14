@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\netribovskijva\\yshkere\\wwp\\wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\netribovskijva\\yshkere\\wwp\\wwp\\runnerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\runnerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\netribovskijva\\yshkere\\wwp\\wwp\\runnerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\runnerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|C:\\Users\\NetribovskijVA\\yshkere\\WWP\\wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|c:\\users\\netribovskijva\\yshkere\\wwp\\wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{08BF8A86-EED4-44C4-9BDF-F78236643F11}|WWP\\WWP.csproj|solutionrelative:wwp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
@@ -21,24 +29,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RunnerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\RunnerRequest.cs",
+              "RelativeDocumentMoniker": "WWP\\RunnerRequest.cs",
+              "ToolTip": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\RunnerRequest.cs",
+              "RelativeToolTip": "WWP\\RunnerRequest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:20:57.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RunnerClass.cs",
+              "DocumentMoniker": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\RunnerClass.cs",
+              "RelativeDocumentMoniker": "WWP\\RunnerClass.cs",
+              "ToolTip": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\RunnerClass.cs",
+              "RelativeToolTip": "WWP\\RunnerClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:16:26.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WWP\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\MainWindow.xaml.cs",
               "RelativeToolTip": "WWP\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAgwL4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAiwPAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:52:53.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\NetribovskijVA\\yshkere\\WWP\\WWP\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WWP\\MainWindow.xaml",
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "dbo.User.data.sql",
               "DocumentMoniker": "C:\\Users\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql",
               "RelativeDocumentMoniker": "..\\..\\..\\TEMP.VATHOLM\\AppData\\Local\\Temp\\dbo.User.data.sql",
